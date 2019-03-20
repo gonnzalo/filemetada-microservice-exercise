@@ -1,0 +1,11 @@
+var fs = require('fs');
+
+let docum = process.argv[2];
+
+let file;
+
+fs.readFile(docum, (err, data) => {
+    if (err) throw err;
+    console.log(data.toString().split('\n').length - 1);
+  });
+
