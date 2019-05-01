@@ -1,6 +1,13 @@
 
 # API Project: File Metadata Microservice for freeCodeCamp
 
+### Live:
+
+https://filemicroservice.glitch.me/
+
+-------
+
+
 ###    User stories:
 1. I can submit a form that includes a file upload.
 2. The form file input field  has the "name" attribute set to "upfile". We rely on this in testing.
@@ -9,5 +16,4 @@
 ### Usage :
 * Go to the main page, and upload a file using the provided form.
 
-### Hint:
-* To handle the file uploading you should use the [multer](https://www.npmjs.com/package/multer) npm package.
+
